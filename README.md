@@ -7,4 +7,4 @@ Activity Diagram
 
 Class Diagram
 
-![alt text] https://github.com/mc2994/maybank_ecommerce/blob/master/maybank%20erd.png
+![alt text](https://github.com/mc2994/maybank_ecommerce/blob/master/maybank%20erd.png)
