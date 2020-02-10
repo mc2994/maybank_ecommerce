@@ -17,8 +17,7 @@ How to run the application.
 
 3. Open postman, try to access this url without authentication
 
-        [GET METHOD]
-
+[GET METHOD]
 Get All Products:
         localhost:8080/exam/products/
 
