@@ -1,27 +1,25 @@
 # Maybank Ecommerce
 
-Activity Diagram
+# Activity Diagram
 
 ![alt text](https://github.com/mc2994/maybank_ecommerce/blob/master/Activity%20Diagram.jpg)
 
 
-Class Diagram
+# Class Diagram
 
 ![alt text](https://github.com/mc2994/maybank_ecommerce/blob/master/maybank%20erd.png)
 
-How to run the application.
+# How to run the application.
 
 1. Copy the exam.war file from "maybank war file" folder
-
-2. deploy to JBoss EAP 7.1 
-
+2. Deploy to JBoss EAP 7.1 
 3. Open postman, try to access this url without authentication
 
-[GET METHOD]
-Get All Products:
+# [GET METHOD]
+# Get All Products:
         localhost:8080/exam/products/
 
-Search for a product:
+# Search for a product:
        localhost:8080/exam/products/{productName}       
 
 
@@ -29,18 +27,18 @@ Search for a product:
        username: mckinley
        password: mckinley
 
-[POST METHOD]
-Add Product:
+# [POST METHOD]
+# Add Product:
         localhost:8080/exam/products/
 
-[PUT METHOD]
-Update a product:
+# [PUT METHOD]
+# Update a product:
        localhost:8080/exam/products/
 
-[DELETE METHOD]
+# [DELETE METHOD]
       localhost:8080/exam/products/{productId}
 
-sample data:
+# sample data:
 
  {
 		
