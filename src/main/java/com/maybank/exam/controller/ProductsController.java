@@ -71,7 +71,8 @@ public class ProductsController {
 		Product record = productRepository.findByProductId(id);
 		if (record != null) {
 			productRepository.deleteById(id);
+			return new ResponseEntity<String>("Product deleted!", HttpStatus.OK);
 		}
-		return new ResponseEntity<String>("Product deleted!", HttpStatus.OK);
+		return new ResponseEntity<String>("Product not found!", HttpStatus.OK);
 	}
 }

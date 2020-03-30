@@ -14,8 +14,12 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 	
 	Product findByProductId(Integer id);
 
-	@Query("select p from Product p where p.title like %?1 and isAvailable=1")
+//	@Query("select p from Product p where p.title like %?1 and isAvailable=1")
+//	List<Product> findProductsByTitle(String title);
+	
+	@Query(nativeQuery=true, value="SELECT * FROM products where title like %:title%")
 	List<Product> findProductsByTitle(String title);
+	
 	
 	@Query("select p from Product p where p.title=:title ")
 	Product findByTitle(@Param("title") String title);
